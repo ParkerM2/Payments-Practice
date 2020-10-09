@@ -1,0 +1,29 @@
+{
+  "name": "payments-practice",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000P\u0000a\u0000y\u0000m\u0000e\u0000n\u0000t\u0000s\u0000-\u0000P\u0000r\u0000a\u0000c\u0000t\u0000i\u0000c\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParkerM2/Payments-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParkerM2/Payments-Practice/issues"
+  },
+  "homepage": "https://github.com/ParkerM2/Payments-Practice#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "load": "^1.0.2",
+    "stripe": "^8.108.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
