@@ -1,10 +1,10 @@
-if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').config()
-};
+// if (process.env.NODE_ENV !== 'production') {
+//     require('dotenv').config()
+// };
 
-const stripeSecretKey = process.env.STRIPE_SECRET_KEY
-const stripePublicKey = process.env.STRIPE_PUBLIC_KEY
-console.log(stripeSecretKey, stripePublicKey)
+// const stripeSecretKey = process.env.STRIPE_SECRET_KEY
+// const stripePublicKey = process.env.STRIPE_PUBLIC_KEY
+// console.log(stripeSecretKey, stripePublicKey)
 const express = require('express');
 const app = express();
 PORT = 8080;
@@ -29,4 +29,4 @@ app.get('/store', function (req, res) {
 
 
 
-app.listen(PORT)
+app.listen(PORT, "port")
